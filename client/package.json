@@ -9,12 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "0.27.2",
+    "clsx": "1.2.1",
+    "cookie": "0.5.0",
+    "jsonwebtoken": "8.5.1",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-hook-form": "7.36.0",
+    "react-query": "3.39.2",
+    "react-scroll": "1.8.7",
+    "socket.io-client": "4.5.2"
   },
   "devDependencies": {
+    "@tanstack/react-query-devtools": "^4.3.9",
+    "autoprefixer": "^10.4.12",
     "eslint": "8.23.1",
-    "eslint-config-next": "12.3.0"
+    "eslint-config-next": "12.3.0",
+    "postcss": "^8.4.16",
+    "postcss-import": "15.0.0",
+    "tailwindcss": "^3.1.8"
   }
 }

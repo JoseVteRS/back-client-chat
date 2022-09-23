@@ -1,0 +1,15 @@
+.input-wrapper {
+	@apply flex flex-col gap-2;
+}
+
+.input-label {
+	@apply font-bold text-xs;
+}
+
+.input-input {
+	@apply border border-indigo-500 rounded-sm p-2 outline-indigo-500;
+}
+
+.focus {
+	@apply focus:outline-none focus:outline-1 focus:outline-offset-2 focus:outline-indigo-500;
+}

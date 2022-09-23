@@ -1,0 +1,7 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './flexbox.css';
+@import './buttons.css';
+@import './inputs.css';
